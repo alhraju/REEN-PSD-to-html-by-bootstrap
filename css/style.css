@@ -2,6 +2,9 @@
 	margin: 0;
 	padding: 0;
 }
+html{
+	scroll-behavior: smooth;
+}
 body{
 	font-size: 14px;
 	line-height: 24px;
@@ -214,4 +217,156 @@ a, a:hover{
     color: #a3b1bf;
     margin-bottom: 0;
 }
+
+/*slider start*/
+.latest-work .owl-carousel{
+    display: block;
+    margin-top: 60px;
+}
+.latest-work .owl-theme .owl-dots .owl-dot.active span{
+	background: #00bc9c;
+}
+.latest-work .owl-theme .owl-nav.disabled+.owl-dots {
+    margin-top: 30px;
+}
+/*slider end*/
 /*latest work*/
+
+/*get-in-touch start*/
+.get-in-touch{
+	width: 100%;
+	padding: 80px 0;
+	text-align: center;
+}
+.get-in-touch h2{
+	font-weight: 600;
+}
+.get-in-touch .btn-info{
+	padding: 12px 30px;
+	margin: 30px 0 0;
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #fff;
+	border: 1px solid #00bc9c;
+	border-radius: 3px;
+	background-color: #00bc9c;
+	transition: 1s;
+}
+.get-in-touch .btn-info:hover, .get-in-touch .btn-info:focus{
+	color: #00bc9c;
+	border: 1px solid #00bc9c;
+	border-radius: 3px;
+	background-color: transparent;
+}
+/*get-in-touch end*/
+
+/*footer start*/
+.footer{
+	width: 100%;
+}
+.footer .top-footer{
+	width: 100%;
+	padding: 80px 0;
+	background: #2f4052;
+}
+.footer .top-footer .widget{
+	width: 100%;
+}
+.footer .top-footer .widget h4{
+	font-size: 22px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #fff;
+	margin-bottom: 25px;
+}
+.footer .top-footer .widget .fimg{
+	margin-bottom: 25px;
+}
+.footer .top-footer .widget p{
+	font-size: 14px;
+	font-weight: 600;
+	color: #a3b1bf;
+	margin-bottom: 25px;
+}
+.footer .top-footer .widget p a{
+	font-size: 16px;
+	font-weight: 700;
+	color: #a3b1bf;
+}
+.footer .top-footer .widget p a .fa{
+	margin-left: 5px;
+}
+.footer .top-footer .widget .card{
+	border: none;
+	border-radius: 0;
+}
+.footer .top-footer .widget .card-img-top{
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+}
+.footer .top-footer .widget .address .fa{
+	margin-right: 10px;
+}
+.footer .top-footer .widget .main-form{
+	width: 100%;
+	position: relative;
+}
+.footer .top-footer .widget .main-form .form-control{
+	height: auto !important;
+	padding: 10px;
+	background: #4e5c6c;
+	border: 1px solid #4e5c6c;
+	color: #828e99;
+}
+.footer .top-footer .widget .main-form .form-control:focus{
+	box-shadow: none !important;
+}
+.footer .top-footer .widget .main-form .btn-primary{
+	color: #fff;
+	background-color: #00bc9c;
+	border: 1px solid #00bc9c;
+	position: absolute;
+	top: 3px;
+	right: 2px;
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+	padding: 9px 13px;
+}
+.footer .top-footer .widget .main-form .btn-primary:hover{
+	color: #00bc9c;
+	background-color: transparent;
+	border: 1px solid #00bc9c;
+}
+.main-footer{
+	width: 100%;
+	padding: 17px 0;
+	background: #283645;
+}
+.main-footer p{
+	margin-top: 0;
+    margin-bottom: 0;
+	font-size: 14px;
+	font-weight: 600;
+	color: #a3b1bf;
+}
+.main-footer p span{
+	margin: 0 10px;
+}
+/*footer end*/
+
+/*scroll to top btn start*/
+.top-scroll{
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+}
+.top-scroll .btn-info{
+	color: #949ba2;
+	background-color: #3c5065;
+	border: 1px solid #3c5065;
+	font-size: 20px;
+	padding: 3px 12px;
+}
+/*scroll to top btn end*/
